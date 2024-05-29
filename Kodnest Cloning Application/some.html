@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #logo-1 {
+        display: grid; /* grid-template-columns: repeat(10, 1fr); */
+        gap: 10px;
+      }
+      #mg-1 {
+        width: 27px;
+        height: 24px;
+        margin-top: 10px;
+        font-size: medium;
+        font-family: inherit;
+      }
+
+      #img-1 {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+      }
+
+      #mg-3 {
+        width: 40px;
+        height: 38px;
+        margin-top: 10px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .fixed-image {
+        position: fixed;
+        top: 0;
+        left: 50%; /* Adjust as needed */
+        transform: translateX(-50%);
+        /* Additional styles */
+        width: 300px; /* Adjust as needed */
+        height: auto;
+      }
+      .background-image {
+        background-image: url("your-image.jpg");
+        background-size: cover; /* Adjust as needed */
+        background-position: center; /* Adjust as needed */
+        background-attachment: fixed;
+      }
+      .image-container {
+        width: 300px; /* Adjust as needed */
+        height: 200px; /* Adjust as needed */
+        overflow: hidden;
+      }
+
+      /* Primary Button */
+      .btn-outline-primary {
+        color: #007bff;
+        border-color: #007bff;
+      }
+
+      .btn-outline-primary:hover {
+        background-color: #007bff;
+        color: #fff;
+      }
+
+      /* Secondary Button */
+      .btn-outline-secondary {
+        color: #6c757d;
+        border-color: #6c757d;
+      }
+
+      .btn-outline-secondary:hover {
+        background-color: #6c757d;
+        color: #fff;
+      }
+
+      /* Success Button */
+      .btn-outline-success {
+        color: #28a745;
+        border-color: #28a745;
+      }
+
+      .btn-outline-success:hover {
+        background-color: #28a745;
+        color: #fff;
+      }
+
+      /* Danger Button */
+      .btn-outline-danger {
+        color: #dc3545;
+        border-color: #dc3545;
+      }
+
+      .btn-outline-danger:hover {
+        background-color: #dc3545;
+        color: #fff;
+      }
+
+      /* Warning Button */
+      .btn-outline-warning {
+        color: #ffc107;
+        border-color: #ffc107;
+      }
+
+      .btn-outline-warning:hover {
+        background-color: #ffc107;
+        color: #212529;
+      }
+
+      /* Info Button */
+      .btn-outline-info {
+        color: #17a2b8;
+        border-color: #17a2b8;
+      }
+
+      .btn-outline-info:hover {
+        background-color: #17a2b8;
+        color: #fff;
+      }
+
+      /* Light Button */
+      .btn-outline-light {
+        color: #f8f9fa;
+        border-color: #f8f9fa;
+      }
+
+      .btn-outline-light:hover {
+        background-color: #f8f9fa;
+        color: #212529;
+      }
+
+      /* Dark Button */
+      .btn-outline-dark {
+        color: #343a40;
+        border-color: #343a40;
+      }
+
+      .btn-outline-dark:hover {
+        background-color: #343a40;
+        color: #fff;
+      }
+
+      .navbar {
+        display: flex;
+      }
+
+      .nav-item {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px 16px;
+        font-size: 16px;
+        margin-right: 10px;
+        color: blue;
+      }
+
+      .nav-item:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <!--  -->
+    <!--  -->
+    <div class="Instagram">
+      <div class="left">
+        <div class="container">
+          <!-- For Logos Start -->
+
+          <div id="logo-1">
+            <a href="">
+              <div id="div-1">
+                <img id="mg-1" src="insta logo.jpg" alt="Home" /><br />
+                Home
+              </div>
+
+              <div id="div-1">
+                <img id="mg-1" src="Search logo.jpg" alt="Home" /> <br />Search
+              </div>
+              <div id="div-1">
+                <img id="mg-1" src="Explorer.svg" alt="Home" /><br />Explore
+              </div>
+              <div id="div-1">
+                <img id="mg-1" src="Reel Logo.jpg" alt="Home" /><br />Reels
+              </div>
+              <div id="div-1">
+                <img
+                  id="mg-1"
+                  src="message Logo.jpg"
+                  alt="Home"
+                /><br />Messages
+              </div>
+              <div id="div-1">
+                <img
+                  id="mg-1"
+                  src="Notification Logo.jpg"
+                  alt="Home"
+                /><br />Notification
+              </div>
+              <div id="div-1">
+                <img id="mg-1" src="Plus logo.jpg" alt="Profile" /><br />Create
+              </div>
+              <div id="div-1">
+                <img id="mg-3" src="me.jpg" alt="Profile" /><br />Profile
+              </div>
+              <div id="div-1">
+                <img id="mg-1" src="more logo.png" alt="Profile" /><br />More
+              </div>
+
+              <div id="div-1">
+                <img id="img-1" src="Settings Logo.jpg" alt="Profile" />Settings
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>hello world</p>
+
+    <img src="kod App logo.png" alt="Your Image" class="fixed-image" />
+    <div class="image-container">
+      <img src="kod App logo.png" alt="Your Image" />
+    </div>
+    <div id="div-1">
+      <img id="mg-1" src="home icon-1.png" alt="Profile" /><br />Create
+    </div>
+    <div id="div-1">
+      <img id="mg-3" src="my account logo.png" alt="Profile" /><br />Profile
+    </div>
+    <div id="div-1">
+      <img id="mg-1" src="resume icon.jpg" alt="Profile" /><br />More
+    </div>
+
+    <div id="div-1">
+      <img id="img-1" src="Welcoming boy.png" alt="Profile" />Settings
+    </div>
+
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-light">Light</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+
+    <div class="navbar">
+      <button class="nav-item" onclick="window.location.href='page1.html'">
+        Page 1
+      </button>
+      <button class="nav-item" onclick="window.location.href='page2.html'">
+        Page 2
+      </button>
+      <button class="nav-item" onclick="window.location.href='page3.html'">
+        Page 3
+      </button>
+    </div>
+  </body>
+</html>

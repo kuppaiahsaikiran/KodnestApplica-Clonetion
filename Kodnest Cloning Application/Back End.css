@@ -1,0 +1,113 @@
+body {
+  font-family: sans-serif;
+}
+.left {
+  padding-right: 10px;
+  width: 250px;
+  height: 580px;
+  font-size: 20px;
+  margin-left: -15px;
+  border-radius: 20px;
+}
+.KodNest_App {
+  display: flex;
+}
+.container {
+  max-width: 600px;
+  padding: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.fixed-image {
+  position: fixed;
+  width: 100px;
+  height: auto;
+  background-color: black;
+  border-radius: 20px;
+}
+#mg-2 {
+  width: 80px;
+  height: 76px;
+}
+#mg-1 {
+  width: 26px;
+  height: 26px;
+  /* margin-right: 20px; */
+}
+
+.header {
+  margin-left: -100px;
+}
+.card {
+  margin-top: -300px;
+  margin-left: 150px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  height: auto;
+}
+.card-2 {
+  margin-top: -32%;
+  margin-left: 525px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.card-3 {
+  margin-top: -32%;
+  margin-left: 72%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.card-4 {
+  margin-top: 100px;
+  margin-left: 150px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.card-5 {
+  margin-top: -32%;
+  margin-left: 530px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+#b2 {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: rgb(23, 149, 212);
+  margin-left: 200px;
+  margin-top: 30px;
+  margin-bottom: -100px;
+}
+#b3 {
+  background-color: rgb(55, 189, 127);
+  width: auto;
+  height: 30px;
+  border-color: rgb(55, 189, 127);
+  color: white;
+  font-size: small;
+}
+#b4 {
+  width: 300px;
+  height: 20px;
+  background-color: khaki;
+  border-radius: 10px;
+}
+
+button {
+  display: inline;
+
+  background-color: transparent;
+  border-radius: 25px;
+  width: auto;
+  font-size: medium;
+  height: 50px;
+  background-color: white;
+  border-color: rgba(226, 136, 1, 0.742);
+}
+button:hover {
+  background-color: rgba(226, 136, 1, 0.742);
+  color: white;
+}

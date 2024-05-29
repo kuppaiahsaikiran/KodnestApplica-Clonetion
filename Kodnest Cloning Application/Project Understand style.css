@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+}
+.left {
+  padding-right: 10px;
+  width: 250px;
+  height: 580px;
+  font-size: 20px;
+  margin-left: -15px;
+  border-radius: 20px;
+}
+.KodNest_App {
+  display: flex;
+}
+.container {
+  max-width: 600px;
+  padding: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.fixed-image {
+  position: fixed;
+  width: 100px;
+  height: auto;
+  background-color: black;
+  border-radius: 20px;
+}
+#mg-2 {
+  width: 80px;
+  height: 76px;
+}
+#mg-1 {
+  width: 26px;
+  height: 26px;
+}
+
+h2 {
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+.header {
+  margin-left: -100px;
+}
+
+button {
+  display: inline;
+
+  background-color: transparent;
+  border-radius: 25px;
+  width: auto;
+  font-size: medium;
+  height: 50px;
+  background-color: white;
+  border-color: rgba(226, 136, 1, 0.742);
+}
+button:hover {
+  background-color: rgba(226, 136, 1, 0.742);
+  color: white;
+}
+
+#b4 {
+  width: auto;
+  height: 40px;
+  /* background-color: khaki; */
+  border-radius: 10px;
+  margin-left: -150px;
+}
+
+#mg-3 {
+  margin-left: 550px;
+  margin-top: -50%;
+}
